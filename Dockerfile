@@ -19,7 +19,6 @@ RUN apt-get update && apt-get install -y \
     netdiscover \
     net-tools \
     && apt-get clean
-
 # Clone your Spring Boot app from GitHub
 RUN git clone https://github.com/arbibelgacem/pentest1.git /app
 
